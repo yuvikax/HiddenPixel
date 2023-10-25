@@ -1,0 +1,20 @@
+<!-- bottom_navigation_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/navigation_encode"
+        android:title="Encode"
+        android:icon="@drawable/encode"/>
+    <item
+        android:id="@+id/navigation_decode"
+        android:title="Decode"
+        android:icon="@drawable/decode" />
+    <item
+        android:id="@+id/navigation_about"
+        android:title="About"
+        android:icon="@drawable/ic_about_foreground" />
+
+</menu>

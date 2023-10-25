@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_decode">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigationView"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:backgroundTint="@color/black"
+        app:itemTextAppearanceInactive="@style/BottomNavigationViewText"
+        app:labelVisibilityMode="labeled"
+        app:itemIconSize="25dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_navigation_menu" />
+
+    <TextView
+        android:id="@+id/rectangle_7"
+        android:layout_width="450dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_account_circle_24"
+        android:background="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="350dp"
+        />
+
+    <ImageButton
+        android:id="@+id/de_placeholder"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/placeholder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/textview_border"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Choose Image"
+        />
+
+
+    <EditText
+        android:id="@+id/de_key"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/rectangle1"
+        android:hint="Enter Secret Key"
+        android:paddingLeft="12dp"
+        />
+
+    <EditText
+        android:id="@+id/de_msg"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="525dp"
+        android:background="@drawable/rectangle1"
+        android:hint="Your Message"
+        android:paddingLeft="12dp"
+        />
+
+    <TextView
+        android:id="@+id/whether_decoded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="40dp"/>
+
+
+    <Button
+        android:id="@+id/decode_button"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Decode"
+        android:textColor="@color/white"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/round_curves"
+        />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageview"-->
+<!--        android:layout_width="210dp"-->
+<!--        android:layout_height="239dp"-->
+<!--        android:layout_marginLeft="75dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="300dp"-->
+<!--        android:background="#D9D9D9"-->
+<!--        />-->
+
+
+
+
+</RelativeLayout>
