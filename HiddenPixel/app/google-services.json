@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "265583949035",
+    "project_id": "hiddenpixel-e4f1c",
+    "storage_bucket": "hiddenpixel-e4f1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265583949035:android:00df6a1875ee4b015bfaae",
+        "android_client_info": {
+          "package_name": "com.example.hiddenpixel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-8tMYjU13Rg8cMb5lx-FQpS7i2VaQBs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
